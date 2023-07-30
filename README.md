@@ -10,13 +10,13 @@ This program aim to find short motives in a genome's seqence. The genome has mul
 
 A motive is the short genomic signature which is described by a Position-Weight Matrix (PWM):
 
-![alt text](./pwd.JPG "PWD")
+![alt text](./images/pwd.JPG "PWD")
 
 The number of ligns L represents the motives' length, the columns represents the 4 possible nucleotides and their respective weights (probability of finding the specific nucleotide at the position).
 
 Thus we can compute, for each position p on each chromosome, the score of the motive is:
 
-![alt text](./p_formula.JPG "p_formula")
+![alt text](./images/p_formula.JPG "p_formula")
 
 where n_j is the nucleotide at the j position and M(j,n) the element of the PWD for nth column and jth lign. 
 
@@ -45,7 +45,7 @@ As the genome files are huge, there must be only one read once and cannot be sav
 
 The results for the 1st usage should look like the following:
 
-![alt text](./res_1.JPG "RESULT")
+![alt text](./images/res_1.JPG "RESULT")
 
 Where the columns are: 
 - the name of the FASTA sequence
